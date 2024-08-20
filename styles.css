@@ -1,0 +1,63 @@
+body {
+    background: rgb(14, 28, 50);
+    margin-top: 8rem;
+}
+
+.name {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    color: white;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+}
+
+#container {
+    background: rgb(0, 70, 50);
+    width: 20rem;
+    border-radius: 1rem;
+    margin: 0 auto;
+    margin-bottom: 1.25rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
+    text-align: center;
+}
+
+#definition {
+    color: white;
+    font-size: 1.25rem;
+    line-height: 1.75rem
+}
+
+#checker-box {
+    background: white;
+    height: 10rem;
+    width: 20rem;
+    border-radius: 1rem;
+    margin: 0 auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-top: 0.5rem;
+    text-align: center;
+}
+
+#prompt {
+    font-size: 1.2rem;
+}
+
+#check-btn {
+    width: 5rem;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 0.9rem;
+    background-color: #000000;
+    color: #fff;
+    cursor: pointer;
+}
